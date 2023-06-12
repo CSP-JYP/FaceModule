@@ -6,6 +6,6 @@ Face Authentication Modules
 inside the ipynb file, all training steps included.
 
 ## requirements
-pytorch (v2.0), onnx (v11), torchvision, imageio(v3), pytorch_metric_learning, opacus, onnxruntime (latest)
+pytorch (v2.0), onnx (v11), torchvision, imageio, pytorch_metric_learning, opacus, onnxruntime (latest)
 
 scikit-learn, pandas, numpy
