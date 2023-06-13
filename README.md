@@ -5,6 +5,8 @@ Face Authentication Modules
 ## information
 inside the ipynb file, all training steps included.
 
+encryption module 내부의 `arcface_final.onnx`는 해당 ipynb 노트북에서 훈련된 pretrained network에서 classifier head가 제거된 버전입니다.
+
 ## requirements
 pytorch (v2.0), onnx (v11), torchvision, imageio, pytorch_metric_learning, opacus, onnxruntime (latest)
 
