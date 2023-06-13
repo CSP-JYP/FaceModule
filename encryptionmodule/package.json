@@ -1,0 +1,23 @@
+{
+  "name": "enctest",
+  "version": "1.0.0",
+  "description": "encneuralnet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "functional-encryption"
+  ],
+  "author": "wsyang",
+  "license": "MIT",
+  "dependencies": {
+    "bn.js": "^5.2.1",
+    "deasync": "^0.1.28",
+    "ndarray-ops": "^1.2.2",
+    "numjs": "^0.16.1",
+    "onnxjs": "^0.1.8",
+    "onnxruntime-node": "^1.15.0",
+    "sharp": "^0.32.1"
+  }
+}
