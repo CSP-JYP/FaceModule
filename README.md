@@ -21,8 +21,8 @@ Elgamal Inner Product Functional Encryption
 - (빠른)테스트를 위해 비트수는 192비트 소수인 p192를 사용하였습니다. 실제로는 보안성을 위해 훨씬 더 큰 비트수가 필요할 것입니다.
 
 ```
-x = 기존벡터
-y = 검증 예정 벡터
+x = original data
+y = to be proved
 client -> server ; send enc(x), enc(y), modulo param p;
 enc(x) dot enc(y) mod p = x dot y
 
