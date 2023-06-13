@@ -29,7 +29,7 @@ client -> server ; send enc(x), enc(y), modulo param p;
 enc(x) dot enc(y) mod p = x dot y
 
 g <- Zp(gen)
-beta* <- Zp
+beta <- Zp
 b = g^beta
 r <- Zp
 xi = b^r * xi
