@@ -45,6 +45,7 @@ see yarn.lock, package.json for additional infos
 - pictures were used from lfw for test, in ./pics, deleted in this repository.
 
 ## test result
+Normalize 후 내적한다면 (= cos similarity) 0.985 이상이면 동일인으로 판정 가능
 440.xxx -> 440, 423.xxx -> 423 으로, 정수 내적값 근사가 가능함.
 
 ![image|250](https://github.com/CSP-JYP/FaceModule/assets/42195282/389a6ecd-bd75-4f79-9ad6-db4fd9877c20)
